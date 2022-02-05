@@ -605,7 +605,7 @@ public class ProgrammableAndroid extends SlimefunItem implements InventoryBlock,
             case SOLID:
                 registerFuelType(new MachineFuel(80, new ItemStack(Material.COAL_BLOCK)));
                 registerFuelType(new MachineFuel(45, new ItemStack(Material.BLAZE_ROD)));
-                registerFuelType(new MachineFuel(70, new ItemStack(Material.DRIED_KELP_BLOCK)));
+                registerFuelType(new MachineFuel(600, new ItemStack(Material.KELP)));
 
                 // Coal & Charcoal
                 registerFuelType(new MachineFuel(8, new ItemStack(Material.COAL)));
